@@ -1,0 +1,139 @@
+#navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer {
+
+
+    margin-top: 100px;
+    margin-right: 400px;
+    margin-left: 400px;
+}
+
+#wrap-reverse {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+* {
+    text-align: center;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+
+
+@media only screen and (max-width:600px) {
+    #wrap-reverse {
+        flex-wrap: wrap-reverse;
+    }
+
+    * {
+        display: flex;
+
+        text-align: center;
+        align-items: center;
+
+    }
+
+    .container {
+        text-align: center;
+    }
+
+    .movies {
+        flex-wrap: wrap;
+        min-height: 300px;
+        margin: 3% 14%;
+    }
+
+    /* img {
+        display: flex;
+        width: fit-content;
+    } */
+
+    .button {
+        margin: 0% 2%;
+    }
+}
+
+.home {
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 200px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#whatsapp {
+    background-color: rgb(30, 219, 30);
+    color: black;
+    height: 30px;
+    width: 300px;
+    font-size: 20px;
+    font-family: fantasy;
+    cursor: pointer;
+}
+
+#adan:hover {
+    box-shadow: 5px 1px 9px 5px rgba(0, 0, 0, 0.75);
+    transform: scale(1.1);
+}
+
+#adan {
+    box-shadow: 2px solid black;
+    border: 5px solid black;
+    border-radius: 20px;
+    background-color: cyan;
+    color: darkblue;
+}
+
+#beware {
+    box-shadow: 2px solid black;
+    border: 5px solid black;
+    border-radius: 20px;
+    background-color: rgb(144, 255, 129);
+    color: black;
+}
+
+#beware:hover {
+    box-shadow: 5px 1px 9px 5px rgba(0, 0, 0, 0.75);
+    transform: scale(1.1);
+}
+
+#house {
+    height: 250px;
+    border-radius: 10px;
+}
+
+#win {
+    height: 750px;
+    width: 1200px;
+}
+
+#develop {
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: larger;
+}
+
+label {
+    font-size: 25px;
+}
+
+#submita {
+    background-color: rgb(9, 255, 181);
+}
+
+#lion {
+    height: 250px;
+    border-radius: 10px;
+}
