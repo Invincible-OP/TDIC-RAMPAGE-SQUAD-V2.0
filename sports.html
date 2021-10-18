@@ -6,90 +6,118 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="sports.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Sports</title>
 </head>
 
 <body>
-    <nav id="nav">
+
+    <!-- <link rel="stylesheet" href="sports.css"> -->
+
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+        <a href="" class="active">SPORTS</a>
+        <!-- Navigation links (hidden by default) -->
+        <div id="myLinks">
+            <a href="./index.html">Homepage</a>
+            <a id="cricket" href="./sports.html">Cricket</a>
+            <a href="./football.html">Football</a>
+            <a href="./sothers.html">Others</a>
+            <a href="./srank.html"> Ranks</a>
+        </div>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <!-- <nav id="nav">
         <button id="home">Homepage</button>
         <button id="cricket">Cricket</button>
         <button id="football">Football</button>
         <a href="sothers.html"><button>Other</button></a>
         <a href="srank.html"> <button>Rank</button></a>
-    </nav>
+    </nav> -->
     <h1>Players stats</h1>
     <h3>Records of runs till end of March 2021</h3>
-    <table>
-        <tr>
-            <th>Players</th>
-            <th>Runs</th>
-            <th>Wickets</th>
-            <th>4's</th>
-            <th>6's</th>
-            <th>Avg</th>
-            <th>Batting best</th>
-            <th>Bowling best</th>
-            <th>Centuries</th>
-            <th>Half-Centuries</th>
-        </tr>
-        <tr>
-            <td>Adit</td>
-            <td>5087</td>
-            <td>204</td>
-            <td>281</td>
-            <td>176</td>
-            <td>53</td>
-            <td>120</td>
-            <td>7w-19runs</td>
-            <td>4</td>
-            <td>17</td>
-        </tr>
-        <tr>
-            <td>Akshat</td>
-            <td>3704</td>
-            <td>162</td>
-            <td>79</td>
-            <td>43</td>
-            <td>30</td>
-            <td>100</td>
-            <td>6-19</td>
-            <td>1</td>
-            <td>1</td>
-        </tr>
-        <tr>
-            <td>Gaurang</td>
-            <td>200</td>
-            <td>15</td>
-            <td>41</td>
-            <td>6</td>
-            <td>20</td>
-            <td>30</td>
-            <td>2-20</td>
-            <td>0</td>
-            <td>0</td>
-        </tr>
-        <tr>
-            <td>Yash</td>
-            <td>40</td>
-            <td>9</td>
-            <td>7</td>
-            <td>2</td>
-            <td>4</td>
-            <td>16</td>
-            <td>3-25</td>
-            <td>0</td>
-            <td>0</td>
-        </tr>
-    </table>
+    <div style="overflow-x: auto;">
+        <table>
+            <tr>
+                <th>Players</th>
+                <th>Runs</th>
+                <th>Wickets</th>
+                <th>4's</th>
+                <th>6's</th>
+                <th>Avg</th>
+                <th>Batting best</th>
+                <th>Bowling best</th>
+                <th>Centuries</th>
+                <th>Half-Centuries</th>
+                <th>Hat-Tricks</th>
+            </tr>
+            <tr>
+                <td>Adit</td>
+                <td>5501</td>
+                <td>233</td>
+                <td>331</td>
+                <td>210</td>
+                <td>55</td>
+                <td>120</td>
+                <td>8w-15runs</td>
+                <td>5</td>
+                <td>22</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>Akshat</td>
+                <td>3820</td>
+                <td>180</td>
+                <td>93</td>
+                <td>52</td>
+                <td>38</td>
+                <td>100</td>
+                <td>6-19</td>
+                <td>1</td>
+                <td>1</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Gaurang</td>
+                <td>208</td>
+                <td>17</td>
+                <td>41</td>
+                <td>6</td>
+                <td>20</td>
+                <td>30</td>
+                <td>2-20</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Yash</td>
+                <td>40</td>
+                <td>9</td>
+                <td>7</td>
+                <td>2</td>
+                <td>4</td>
+                <td>16</td>
+                <td>3-25</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+        </table>
+    </div>
     <div>
         <h1>Cricket team </h1>
     </div>
     <h3>Adit Sarda</h3>
     <p>All rounder and Captain of the Cricket team.Fast baller and can ball upto 130 km/h . Also balls off-spins and
-        leg- spins.NO . 3 batsman and a good wicket- keeper.</p><br><br><br>
+        leg- spins.NO . 3 batsman,a mystery spinner and a good wicket- keeper.</p><br><br><br>
     <h3>Akshat Sharda</h3>
-    <p>All rounder and Vice captain of cricket team. Fast baller and spinner and opener batsman. His knuckles can break
-        your shoulder.</p><br><br><br>
+    <p>All rounder and Vice captain of cricket team. Fast baller and spinner and opener batsman. His knuckles are
+        deadly.</p><br><br><br>
     <h3>Gaurang Sharma</h3>
     <p>All rounder. An opener batsman but not a good baller.</p><br><br><br>
     <div>

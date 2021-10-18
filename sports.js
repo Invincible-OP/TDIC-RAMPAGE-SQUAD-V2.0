@@ -1,11 +1,8 @@
-var home = document.getElementById("home");
-
-var football = document.getElementById("football");
-
-home.onclick = () => {
-    location.href = "./index.html";
-}
-
-football.onclick = () => {
-    location.href = "football.html";
+function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
 }

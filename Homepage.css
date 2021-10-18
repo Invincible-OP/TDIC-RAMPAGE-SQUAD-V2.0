@@ -56,7 +56,7 @@ footer {
         margin: 3% 14%;
     }
 
-    img {
+    #win {
         display: flex;
         width: fit-content;
         max-width: 600px;
@@ -121,8 +121,8 @@ footer {
 }
 
 #win {
-    height: 750px;
-    width: 1200px;
+    height: auto;
+    width: 100%;
 }
 
 #develop {

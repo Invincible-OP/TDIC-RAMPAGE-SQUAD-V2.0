@@ -18,3 +18,8 @@ nav {
     display: flex;
     justify-content: space-evenly;
 }
+
+.introducetdic {
+    height: auto;
+    width: 100%;
+}
